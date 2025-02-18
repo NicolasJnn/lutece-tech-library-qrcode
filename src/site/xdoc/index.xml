@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <properties>
+        <title>QRCode Library</title>
+        <author>Lutece Team</author>
+        <version>1.0.0</version>
+    </properties>
+    <body>
+        <section name="Introduction">
+            <p>
+                The QRCode library provides functionalities to generate and manage QR codes within the Lutece platform.
+            </p>
+        </section>
+        <section name="Configuration">
+            <p>
+                To configure the QRCode library, follow these steps:
+            </p>
+            <itemizedlist>
+                <item>Include the library in your project dependencies.</item>
+                <item>Initialize the QRCodeService in your application.</item>
+            </itemizedlist>
+        </section>
+        <section name="Usage">
+            <p>
+                To use the QRCode library, follow these steps:
+            </p>
+            <itemizedlist>
+                <item>Call the QRCodeService to generate a QR code.</item>
+                <item>Specify the text or URL to be encoded into the QR code.</item>
+                <item>Set the desired size and error correction level for the QR code.</item>
+                <item>Retrieve the generated QR code image.</item>
+            </itemizedlist>
+        </section>
+    </body>
+</document>
